@@ -1,0 +1,58 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+logs/
+*.log
+
+# Airflow
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+webserver_config.py
+
+# Local data
+data/
+*.csv
+*.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python testing/cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Power BI temporary/backup files
+*.pbit
+~$*
+
+# Secrets / credentials
+*.pem
+*.key
+credentials.json
